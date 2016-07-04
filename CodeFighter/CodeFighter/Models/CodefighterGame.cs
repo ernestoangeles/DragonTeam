@@ -46,14 +46,23 @@ namespace CodeFighter.Models
 
         public void Jugador1Curacion()
         {
-            VidaJugador1 = VidaJugador1 + 50;
+            VidaJugador1 = VidaJugador1 > 150 ? 200: VidaJugador1 + 50;
             EnergiaJugador1 = 0;
         }
 
         public void Jugador2Curacion()
         {
-            VidaJugador2 = VidaJugador2 + 50;
+            VidaJugador2 = VidaJugador2 > 150 ? 200 : VidaJugador2 + 50;
             EnergiaJugador2 = 0;
         }
+
+        public bool Jugador1GanaPuntajePerfecto()
+        {
+            return VidaJugador1 == 200 && VidaJugador2 == 0;
+        }
+        public bool Jugador2GanaPuntajePerfecto()
+        {
+            return VidaJugador2 == 200 && VidaJugador1 == 0;
+        }
     }
-}
+}   

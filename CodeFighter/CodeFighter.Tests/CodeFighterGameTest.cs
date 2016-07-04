@@ -67,7 +67,7 @@ namespace CodeFighter.Tests
             //arrange
             //act
             for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador1();
+                game.GolpePuñoJugador2();
             game.GolpeEspecialJugador1();
             var vida = game.VidaJugador2;
             //assert
@@ -79,7 +79,7 @@ namespace CodeFighter.Tests
             //arrange
             //act
             for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador2();
+                game.GolpePuñoJugador1();
             game.GolpeEspecialJugador2();
             var vida = game.VidaJugador1;
             //assert
@@ -165,6 +165,29 @@ namespace CodeFighter.Tests
             var energia = game.EnergiaJugador2;
             //assert
             Assert.AreEqual(0, energia);
+        }
+        #endregion
+
+        #region perfect
+        [TestMethod]
+        public void Jugador1HizoPuntajePerfecto()
+        {
+            //arrange
+            //act
+            for (int i = 0; i < 20; i++)
+                game.GolpePuñoJugador1();
+            //assert
+            Assert.IsTrue(game.Jugador1GanaPuntajePerfecto());
+        }
+        [TestMethod]
+        public void Jugador2HizoPuntajePerfecto()
+        {
+            //arrange
+            //act
+            for (int i = 0; i < 20; i++)
+                game.GolpePuñoJugador2();
+            //assert
+            Assert.IsTrue(game.Jugador2GanaPuntajePerfecto());
         }
         #endregion
     }
