@@ -27,7 +27,7 @@ namespace CodeFighter.Features.StepsDefinitions
         [Given(@"i enter the game")]
         public void GivenIEnterTheGame()
         {
-            driver.Url = "http://localhost/CodeFighter/Home";
+            driver.Url = "http://localhost/CodeFighter/";
         }
 
         [When(@"i enter player one ""(.*)""")]
@@ -72,6 +72,12 @@ namespace CodeFighter.Features.StepsDefinitions
             Assert.AreEqual(player1lifeExpected, currentlifePlayer1);
         }
 
+        [Then(@"i should see ""(.*)""")]
+        public void ThenIShouldSee(string expectedMessage)
+        {
+            var winMessage = driver.FindElement(By.Id("winner-message")).Text;
+            Assert.AreEqual(expectedMessage, winMessage);
+        }
 
     }
 }
