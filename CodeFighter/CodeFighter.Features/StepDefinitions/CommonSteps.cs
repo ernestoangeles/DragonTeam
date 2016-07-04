@@ -15,7 +15,7 @@ namespace CodeFighter.Features.StepsDefinitions
         [BeforeFeature]
         public static void BeforeFeature()
         {
-            driver = new ChromeDriver(@"D:\Driver\");
+            driver = new ChromeDriver(@"C:\Driver\");
         }
 
         [AfterFeature]
