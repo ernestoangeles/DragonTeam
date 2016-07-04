@@ -65,6 +65,14 @@ namespace CodeFighter.Features.StepsDefinitions
             Assert.AreEqual(player2lifeExpected, currentlifePlayer2);
         }
 
+        [Then(@"player one life is ""(.*)""")]
+        public void ThenPlayerOneLifeIs(int player1lifeExpected)
+        {
+            var currentlifePlayer1 = driver.FindElement(By.Id("life-player1")).Text;
+            Assert.AreEqual(player1lifeExpected, currentlifePlayer1);
+        }
+
+
     }
 }
 
