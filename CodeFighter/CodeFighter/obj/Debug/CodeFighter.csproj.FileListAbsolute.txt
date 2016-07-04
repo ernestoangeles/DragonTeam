@@ -1,0 +1,5 @@
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\bin\CodeFighter.dll.config
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\bin\CodeFighter.dll
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\bin\CodeFighter.pdb
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\obj\Debug\CodeFighter.dll
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\obj\Debug\CodeFighter.pdb
