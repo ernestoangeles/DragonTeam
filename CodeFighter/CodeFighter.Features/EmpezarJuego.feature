@@ -1,6 +1,6 @@
 ﻿Feature: EmpezarJuego
 //Escenario 9
-@mytag
+
 Scenario: Ingresar Jugadores 
 	Given i enter the game
 	When i enter player one "Alan" 

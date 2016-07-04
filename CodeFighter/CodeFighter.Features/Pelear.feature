@@ -1,7 +1,6 @@
 ﻿Feature: Pelear
+//Escenario 3
 
-
-@mytag
 Scenario: Jugador 1 Patea Jugador 2
 	Given i enter the game
 	When i enter player one "Pedro"
