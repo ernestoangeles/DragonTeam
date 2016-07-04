@@ -1,6 +1,5 @@
-C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter\bin\CodeFighter.dll.config
-C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter\bin\CodeFighter.dll
-C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter\bin\CodeFighter.pdb
-C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter\obj\Debug\CodeFighter.csprojResolveAssemblyReference.cache
-C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter\obj\Debug\CodeFighter.dll
-C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter\obj\Debug\CodeFighter.pdb
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\bin\CodeFighter.dll.config
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\bin\CodeFighter.dll
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\bin\CodeFighter.pdb
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\obj\Debug\CodeFighter.dll
+C:\SCRUM DEVELOPER\DragonTeam\CodeFighter\CodeFighter\obj\Debug\CodeFighter.pdb
