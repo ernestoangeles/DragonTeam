@@ -1,13 +1,112 @@
 ﻿<!DOCTYPE html>
+
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 </head>
 <body>
-    <div> 
-        <span id="current-player1">Alan</span>
-        <span id="current-player2">Jose</span>
-    </div>
+    <table border="0">
+        <tr>
+            <td>
+                <table id="tbl-primer-jugador" border="0">
+                    <tr>
+                        <td align="center" colspan="2">
+                            <h1 id="current-player1">
+                                @ViewBag.NombreJugadorUno
+                            </h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" id="nombre-jugador1">
+                            <label id="life-player1">@ViewBag.VidaJugadorUno / 200</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form action="~/Jugar/Golpear" method="post">
+                                <input type="hidden" name="hddJugador" value="1" />
+                                <input type="submit" id="punoJ1" value="Puño" />
+                            </form>
+                        </td>
+                        <td>
+                            <form action="~/Jugar/Patear" method="post">
+                                <input type="hidden" name="hddJugador" value="1" />
+                                <input type="submit" id="patadaJ1" value="Patada" />
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form action="~/Jugar/Especial" method="post">
+                                <input type="hidden" name="hddJugador" value="1" />
+                                <input type="submit" id="especialJ1" value="Especial" />
+                            </form>
+                        </td>
+                        <td>
+                            <form action="~/Jugar/Curar" method="post">
+                                <input type="hidden" name="hddJugador" value="1" />
+                                <input type="submit" id="curaJ1" value="Curar" />
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Energia: <label id="energy-player1">@ViewBag.EnergiaJugadorUno</label>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table id="tbl-segundo-jugador">
+                    <tr>
+                        <td align="center" colspan="2">
+                            <h1 id="current-player2">
+                                @ViewBag.NombreJugadorDos
+                            </h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <label id="life-player2">@ViewBag.VidaJugadorDos / 200</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form action="~/Jugar/Golpear" method="post">
+                                <input type="hidden" name="hddJugador" value="2" />
+                                <input type="submit" id="punoJ2" value="Puño" />
+                            </form>
+                        </td>
+                        <td>
+                            <form action="~/Jugar/Patear" method="post">
+                                <input type="hidden" name="hddJugador" value="2" />
+                                <input type="submit" id="patadaJ2" value="Patada" />
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form action="~/Jugar/Especial" method="post">
+                                <input type="hidden" name="hddJugador" value="2" />
+                                <input type="submit" id="especialJ2" value="Especial" />
+                            </form>
+                        </td>
+                        <td>
+                            <form action="~/Jugar/Curar" method="post">
+                                <input type="hidden" name="hddJugador" value="2" />
+                                <input type="submit" id="curaJ2" value="Curar" />
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Energia: <label id="energy-player2">@ViewBag.EnergiaJugadorDos</label>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

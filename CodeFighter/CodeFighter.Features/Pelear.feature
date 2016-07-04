@@ -5,7 +5,7 @@ Scenario: Jugador 1 Patea Jugador 2
 	When i enter player one "Pedro"
 	And i enter player two "Jose"
 	And i click "jugar"
-	And i click "kick-player-1"
+	And i click "patadaJ1"
 	Then player two life is "180 / 200"
 
 #Escenario 1	
