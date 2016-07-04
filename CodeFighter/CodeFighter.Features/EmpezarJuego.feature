@@ -6,4 +6,5 @@ Scenario: Ingresar Jugadores
 	When i enter player one "Alan" 
 	And i enter player two "Jose"
 	And i click "Jugar"
-	Then i should see "Alan" and "Jose"
+	Then show "Alan" and "Jose"
+	

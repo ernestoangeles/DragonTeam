@@ -84,7 +84,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 8
  testRunner.And("i click \"Jugar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 9
- testRunner.Then("i should see \"Alan\" and \"Jose\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("show \"Alan\" and \"Jose\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
