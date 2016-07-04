@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CodeFighter.Tests
+namespace CodeFighter.Features
 {
     [TestClass]
     public class UnitTest1
@@ -9,7 +9,6 @@ namespace CodeFighter.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            ddd
         }
     }
 }
