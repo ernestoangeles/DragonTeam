@@ -14,158 +14,70 @@ namespace CodeFighter.Tests
             game = new CodeFighterGame();
         }
 
-        #region golpe puño
         [TestMethod]
-        public void Jugador1GolpePuñoJugador2Menos10Vida()
+        public void Jugador2Con10VidaMenosDespuesDePuñoJugador1()
         {
             //arrange
             //act
             game.GolpePuñoJugador1();
-            var vida = game.VidaJugador2;
+            var vida2 = game.Jugador2.Vida;
             //assert
-            Assert.AreEqual(190, vida);
+            Assert.AreEqual(190, vida2);
         }
 
         [TestMethod]
-        public void Jugador2GolpePuñoJugador1Menos10Vida()
+        public void Jugador1Con10VidaMenosDespuesDePuñoJugador2()
         {
             //arrange
             //act
             game.GolpePuñoJugador2();
-            var vida = game.VidaJugador1;
+            var vida1 = game.Jugador1.Vida;
             //assert
-            Assert.AreEqual(190, vida);
+            Assert.AreEqual(190, vida1);
         }
-
+        
         [TestMethod]
-        public void Jugador1GolpePuñoGana5DeEnergia()
+        public void Jugador1Gana5DeEnergiaDespuesDeGolpePuño()
         {
             //arrange
             //act
             game.GolpePuñoJugador1();
-            var energia1 = game.EnergiaJugador1;
+            var energia1 = game.Jugador1.Energia;
             //assert
             Assert.AreEqual(5, energia1);
         }
 
         [TestMethod]
-        public void Jugador2GolpePuñoGana5DeEnergia()
+        public void Jugador2Gana5DeEnergiaDespuesDeGolpePuño()
         {
             //arrange
             //act
             game.GolpePuñoJugador2();
-            var energia1 = game.EnergiaJugador2;
+            var energia1 = game.Jugador2.Energia;
             //assert
             Assert.AreEqual(5, energia1);
         }
-        #endregion
 
-        #region golpe especial
         [TestMethod]
-        public void Jugador1GolpeEspecialJugador2Menos30Vida()
+        public void Jugador2Con20VidaMenosDespuesDePatadaJugador1()
         {
             //arrange
             //act
-            for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador1();
-            game.GolpeEspecialJugador1();
-            var vida = game.VidaJugador2;
+            game.GolpePatadaJugador1();
+            var vida2 = game.Jugador2.Vida;
             //assert
-            Assert.AreEqual(170, vida);
-        }
-        [TestMethod]
-        public void Jugador2GolpeEspecialJugador1Menos30Vida()
-        {
-            //arrange
-            //act
-            for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador2();
-            game.GolpeEspecialJugador2();
-            var vida = game.VidaJugador1;
-            //assert
-            Assert.AreEqual(170, vida);
+            Assert.AreEqual(180, vida2);
         }
 
         [TestMethod]
-        public void Jugador1GolpeEspecialGana15DeEnergia()
+        public void Jugador1Con20VidaMenosDespuesDePatadaJugador2()
         {
             //arrange
             //act
-            for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador1();
-            game.GolpeEspecialJugador1();
-            var energia = game.EnergiaJugador1;
+            game.GolpePatadaJugador2();
+            var vida1 = game.Jugador1.Vida;
             //assert
-            Assert.AreEqual(15, energia);
+            Assert.AreEqual(180, vida1);
         }
-
-        [TestMethod]
-        public void Jugador2GolpeEspecialGana15DeEnergia()
-        {
-            //arrange
-            //act
-            for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador2();
-            game.GolpeEspecialJugador2();
-            var energia = game.EnergiaJugador2;
-            //assert
-            Assert.AreEqual(15, energia);
-        }
-        #endregion
-
-        #region curacion
-        [TestMethod]
-        public void Jugador1CuracionGana50DeVida()
-        {
-            //arrange
-            //act
-            for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador1();
-            game.GolpePuñoJugador2();
-            game.Jugador1Curacion();
-            var vida = game.VidaJugador1;
-            //assert
-            Assert.AreEqual(200, vida);
-        }
-        [TestMethod]
-        public void Jugador2CuracionGana50DeVida()
-        {
-            //arrange
-            //act
-            for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador2();
-            game.GolpePuñoJugador1();
-            game.Jugador2Curacion();
-            var vida = game.VidaJugador2;
-            //assert
-            Assert.AreEqual(200, vida);
-        }
-
-        [TestMethod]
-        public void Jugador1CuracionPierde100Energia()
-        {
-            //arrange
-            //act
-            for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador1();
-            game.Jugador1Curacion();
-            var energia = game.EnergiaJugador1;
-            //assert
-            Assert.AreEqual(0, energia);
-        }
-
-        [TestMethod]
-        public void Jugador2CuracionPierde100Energia()
-        {
-            //arrange
-            //act
-            for (int i = 0; i < 20; i++)
-                game.GolpePuñoJugador2();
-            game.Jugador2Curacion();
-            var energia = game.EnergiaJugador2;
-            //assert
-            Assert.AreEqual(0, energia);
-        }
-        #endregion
     }
 }

@@ -7,53 +7,33 @@ namespace CodeFighter.Models
 {
     public class CodeFighterGame
     {
-        public int VidaJugador1;
-        public int VidaJugador2;
-        public int EnergiaJugador1;
-        public int EnergiaJugador2;
+        public Jugador Jugador1 { get; set; }
+        public Jugador Jugador2 { get; set; }
 
         public CodeFighterGame()
         {
-            VidaJugador1 = 200;
-            VidaJugador2 = 200;
-            EnergiaJugador1 = 0;
-            EnergiaJugador2 = 0;
+            Jugador1 = new Jugador();
+            Jugador2 = new Jugador();
         }
 
         public void GolpePuñoJugador1()
         {
-            VidaJugador2 = VidaJugador2 - 10;
-            EnergiaJugador1 = EnergiaJugador1 + 5;
+            Jugador1.GolpePuño(Jugador2);
         }
 
         public void GolpePuñoJugador2()
         {
-            VidaJugador1 = VidaJugador1 - 10;
-            EnergiaJugador2 = EnergiaJugador2 + 5;
+            Jugador2.GolpePuño(Jugador1);
         }
 
-        public void GolpeEspecialJugador1()
+        public void GolpePatadaJugador1()
         {
-            VidaJugador2 = VidaJugador2 - 30;
-            EnergiaJugador1 = 15;
+            Jugador1.GolpePatada(Jugador2);
         }
 
-        public void GolpeEspecialJugador2()
+        public void GolpePatadaJugador2()
         {
-            VidaJugador1 = VidaJugador1 - 30;
-            EnergiaJugador2 = 15;
-        }
-
-        public void Jugador1Curacion()
-        {
-            VidaJugador1 = VidaJugador1 + 50;
-            EnergiaJugador1 = 0;
-        }
-
-        public void Jugador2Curacion()
-        {
-            VidaJugador2 = VidaJugador2 + 50;
-            EnergiaJugador2 = 0;
+            Jugador2.GolpePatada(Jugador1);
         }
     }
 }
