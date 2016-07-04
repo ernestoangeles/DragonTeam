@@ -1,0 +1,7 @@
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Tests\obj\Debug\CodeFighter.Tests.csprojResolveAssemblyReference.cache
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Tests\bin\Debug\CodeFighter.Tests.dll
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Tests\bin\Debug\CodeFighter.Tests.pdb
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Tests\bin\Debug\CodeFighter.dll
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Tests\bin\Debug\CodeFighter.pdb
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Tests\obj\Debug\CodeFighter.Tests.dll
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Tests\obj\Debug\CodeFighter.Tests.pdb

@@ -1,0 +1,13 @@
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\CodeFighter.Features.dll.config
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\CodeFighter.Features.dll
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\CodeFighter.Features.pdb
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\obj\Debug\CodeFighter.Features.csprojResolveAssemblyReference.cache
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\obj\Debug\CodeFighter.Features.dll
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\obj\Debug\CodeFighter.Features.pdb
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\WebDriver.dll
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\WebDriver.Support.dll
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\WebDriver.xml
+C:\Users\ernesto.angeles\Source\Repos\DragonTeam\CodeFighter\CodeFighter.Features\bin\Debug\WebDriver.Support.xml
