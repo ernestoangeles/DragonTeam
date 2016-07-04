@@ -40,11 +40,11 @@ namespace CodeFighter.Controllers
         {
             if (hddJugador == "1")
             {
-
+                CodeFighterGame.GolpePuñoJugador1();
             }
             else
             {
-
+                CodeFighterGame.GolpePuñoJugador2();
             }
             return View();
         }
@@ -55,13 +55,15 @@ namespace CodeFighter.Controllers
         {
             if (hddJugador == "1")
             {
-
+                CodeFighterGame.GolpePatadaJugador1();
             }
             else
             {
-
+                CodeFighterGame.GolpePatadaJugador2();
             }
-            return View();
+
+            Session.Add("CodeFighterGame", CodeFighterGame);
+            return RedirectToAction("Index");
         }
 
         // POST: Especial
@@ -70,12 +72,13 @@ namespace CodeFighter.Controllers
         {
             if (hddJugador == "1")
             {
-
+                CodeFighterGame.GolpeEspecialJugador1();
             }
             else
             {
-
+                CodeFighterGame.GolpeEspecialJugador2();
             }
+            Session.Add("CodeFighterGame", CodeFighterGame);
             return View();
         }
 

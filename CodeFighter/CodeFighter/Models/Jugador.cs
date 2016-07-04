@@ -25,7 +25,7 @@ namespace CodeFighter.Models
 
         public void GolpePatada(Jugador jugadorGolpeado)
         {
-            jugadorGolpeado.Vida = Vida - 20;
+            jugadorGolpeado.Vida -=  20;
             Energia = Energia + 8;
         }
 
