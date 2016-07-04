@@ -27,7 +27,7 @@ namespace CodeFighter.Features.StepsDefinitions
         [Given(@"i enter the game")]
         public void GivenIEnterTheGame()
         {
-            driver.Url = "http://localhost/CodeFighter/";
+            driver.Url = "http://localhost/CodeFighter/Home";
         }
 
         [When(@"i enter player one ""(.*)""")]
