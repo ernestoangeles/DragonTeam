@@ -7,6 +7,7 @@ namespace CodeFighter.Models
 {
     public class Jugador
     {
+        public string Nombre { get; set; }
         public int Vida { get; set; }
         public int Energia { get; set; }
 

@@ -26,5 +26,12 @@ namespace CodeFighter.Controllers
         {
             return View();
         }
+
+        public ActionResult StartGame(string nombrePlayer1, string nombrePlayer2)
+        {
+            CodeFighterGame.Jugador1.Nombre = nombrePlayer1;
+            CodeFighterGame.Jugador2.Nombre = nombrePlayer2;
+            return RedirectToAction("Index", "Jugar");
+        }
     }
 }
