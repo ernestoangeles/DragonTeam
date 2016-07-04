@@ -82,7 +82,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 6
  testRunner.And("i enter player two \"Jose\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 7
- testRunner.And("i click \"jugar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("i click \"Jugar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 8
  testRunner.And("i click \"patadaJ1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 9

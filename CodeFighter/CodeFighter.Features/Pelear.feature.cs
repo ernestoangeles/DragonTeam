@@ -82,7 +82,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 6
  testRunner.And("i enter player two \"Jose\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 7
- testRunner.And("i click \"jugar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("i click \"Jugar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 8
  testRunner.And("i click \"patadaJ1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 9
@@ -106,7 +106,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 15
  testRunner.And("i enter player two \"Jose\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 16
- testRunner.And("i click \"jugar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("i click \"Jugar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 17
  testRunner.Then("player one life is \"200 / 200\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 18
