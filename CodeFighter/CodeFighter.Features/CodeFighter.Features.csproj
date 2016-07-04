@@ -72,10 +72,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmpezarJuego.feature</DependentUpon>
     </Compile>
-    <Compile Include="fighting.feature.cs">
+    <Compile Include="Pelear.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>fighting.feature</DependentUpon>
+      <DependentUpon>Pelear.feature</DependentUpon>
     </Compile>
     <Compile Include="StepsDefinitions\CommonSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,9 +86,9 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>EmpezarJuego.feature.cs</LastGenOutput>
     </None>
-    <None Include="fighting.feature">
+    <None Include="Pelear.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>fighting.feature.cs</LastGenOutput>
+      <LastGenOutput>Pelear.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>

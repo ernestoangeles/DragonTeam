@@ -1,4 +1,4 @@
-﻿Feature: fighting
+﻿Feature: Pelear
 
 
 @mytag

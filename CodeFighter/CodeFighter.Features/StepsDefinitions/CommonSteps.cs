@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using System;
 using System.Collections.Generic;
@@ -18,8 +19,7 @@ namespace CodeFighter.Features.StepsDefinitions
             [BeforeFeature]
             public static void BeforeFeature()
             {
-                driver = new FirefoxDriver();
-                //driver = new ChromeDriver(@"C:\Proyectos\pponce\chromedriver_win32");
+                driver = new ChromeDriver(@"D:\Driver\");
             }
 
             [AfterFeature]
