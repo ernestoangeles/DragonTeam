@@ -28,5 +28,16 @@ namespace CodeFighter.Models
             Energia = Energia + 8;
         }
 
+        public void GolpeEspecial(Jugador jugadorGolpeado)
+        {
+            jugadorGolpeado.Vida = jugadorGolpeado.Vida - 30;
+            Energia = 15;
+        }
+
+        public void Curacion()
+        {
+            Vida = Vida > 150 ? 200 : Vida + 50;
+            Energia = 0;
+        }
     }
 }
